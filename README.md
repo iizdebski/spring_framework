@@ -1,1 +1,1 @@
-# spring_core_course
+# spring_framework_course
