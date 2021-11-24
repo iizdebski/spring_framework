@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="book1" class="com.izdebski.model.Book">
+    <property name="bookId" value="222"></property>
+    <property name="bookName" value="Spring"></property>
+    </bean>
+
+    <bean id="book2" class="com.izdebski.model.Book">
+        <property name="bookId" value="333"></property>
+        <property name="bookName" value="JDBC"></property>
+    </bean>
+
+    <bean id="bookCollection" class="com.izdebski.model.BookCollection">
+        <property name="bookList">
+            <list>
+                <ref bean="book1"/>
+                <ref bean="book2"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="bookLibrary" class="com.izdebski.model.BookLibrary">
+    <property name="allBooks" value="#{bookCollection.bookList}"></property>
+        <property name="getFirstBook" value="#{bookCollection.getFirstBook()}"></property>
+    </bean>
+</beans>

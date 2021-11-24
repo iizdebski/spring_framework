@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SpringAOP">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../Installations/libraries/SpringAOP" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../Installations/libraries/SpringAOP" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../Installations/libraries/SpringAOP" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../Installations/libraries/SpringAOP" recursive="false" type="SOURCES" />
+  </library>
+</component>

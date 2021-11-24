@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="LibSpring4Hibernate5Integration">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../Installations/libraries/LibSpring4Hibernate5Integration" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../Installations/libraries/LibSpring4Hibernate5Integration" recursive="false" />
+  </library>
+</component>
